@@ -1,0 +1,18 @@
+// ======== THEME COLORS ========
+$bodyBackground:#F7F8FA;
+$fontColor:#4B4B4B;
+$lightBlue:#1088F2;
+$darkBlue:darken($lightBlue, 10%);
+$menuColor:#262626;
+
+// ======== THEME FONTS & FONT SIZES ========
+$mainFont:sans-serif;
+$fontSize:16px;
+$heroH1:40px;
+$pageH1:20px;
+
+body {
+  background:$bodyBackground;
+  color:$fontColor;
+  font-family:$mainFont;
+}

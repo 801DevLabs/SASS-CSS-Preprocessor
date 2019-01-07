@@ -1,0 +1,37 @@
+header {
+  background:$menuColor;
+    .header-content {
+      height: 60px;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .branding {
+        font-size: 24px;
+        color:white;
+      }
+      .nav-bar {
+        nav {
+          ul {
+            display: flex;
+            li {
+              a {
+                height: 60px;
+                line-height: 60px;
+                padding: 0 20px;
+                display: inline-block;
+                color: white;
+                text-decoration: none;
+                &:hover,
+                &:active {
+                  background: white;
+                  color:$fontColor;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}

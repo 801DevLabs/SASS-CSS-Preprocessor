@@ -1,0 +1,41 @@
+.home {
+  .hero {
+    width: 100%;
+    height: 400px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .hero-content {
+      text-align: center;
+      h1 {
+        font-size:$heroH1;
+        text-transform: uppercase;
+        margin-block-end: 12px;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 16px;
+      }
+
+      .hero-btn {
+        transition: .3s;
+        display: inline-block;
+        background:$lightBlue;
+        height: 48px;
+        width: 187px;
+        line-height: 48px;
+        border: none;
+        border-radius: 4px;
+        text-transform: uppercase;
+        color: white;
+        font-size: 12px;
+
+        &:hover {
+          transition: .3s;
+          background:$darkBlue;
+        }
+      }
+    }
+  }
+}
